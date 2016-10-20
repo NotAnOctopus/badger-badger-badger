@@ -1,0 +1,1 @@
+exec('for badger in range(200):\n\tprint " ".join(["badger"]*[12,11,11,11,12][badger%5]),\n\tprint "mushroom "*2+"\\n" if badger%5!=3 else "Aagh! Snake! "*2+"Snake! Aagh! Snake! Oh it\'s a snake!\\nIt\'s a",') # python 2
